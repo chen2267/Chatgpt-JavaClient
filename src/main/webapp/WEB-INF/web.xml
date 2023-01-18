@@ -4,13 +4,21 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name>client</servlet-name>
-        <servlet-class>Client</servlet-class>
+        <servlet-name>ChatgptClient</servlet-name>
+        <servlet-class>ChatgptClient</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NovelaiClient</servlet-name>
+        <servlet-class>NovelaiClient</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>client</servlet-name>
-        <url-pattern>/</url-pattern>
+        <servlet-name>ChatgptClient</servlet-name>
+        <url-pattern>/ChatgptClient</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NovelaiClient</servlet-name>
+        <url-pattern>/NovelaiClient</url-pattern>
     </servlet-mapping>
 
 
