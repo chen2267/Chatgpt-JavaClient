@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaClient:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaClient_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Chatgpt-JavaClient" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.9" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.11" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
+          <element id="library" level="project" name="Maven: com.alibaba.fastjson2:fastjson2:2.0.20" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Chatgpt-JavaClient/web/Web" />
+    </root>
+  </artifact>
+</component>

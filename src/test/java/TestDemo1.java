@@ -5,10 +5,7 @@ import java.net.URISyntaxException;
 public class TestDemo1 {
     @Test
     public void testSend(){
-        try {
-            ChatgptClient.sendReq("tell me about yourself");
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
+        String a = "[{}]";
+        System.out.println(a.substring(1, - 2));
     }
 }
